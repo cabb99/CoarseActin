@@ -1,5 +1,4 @@
 <ForceField>
-<!-- Atom types -->
   <AtomTypes>
     <!-- Real particles -->
     <Type name="A" class="A" element="A" mass="49"/>
@@ -9,4 +8,20 @@
     <Type name="C1" class="C1" element="C1" mass="0"/>
     <Type name="C2" class="C2" element="C2" mass="0"/>
   </AtomTypes>
+  <Residues>
+    <Residue name="ACT">
+      <Atom name="A" type="A"/>
+      <Atom name="A1" type="A"/>
+    </Residue>
+    <Residue name="CAM">
+      <Atom name="C" type="C"/>
+      <Atom name="C1" type="C"/>
+      <Atom name="C2" type="C"/>
+    </Residue>
+  </Residues>
+  <Patches>
+    <Patch name="AT">
+      <RemoveAtom name="A1"/>
+    </Patch>
+  </Patches>
 </ForceField>
