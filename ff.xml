@@ -1,0 +1,12 @@
+<ForceField>
+<!-- Atom types -->
+  <AtomTypes>
+    <!-- Real particles -->
+    <Type name="A" class="A" element="A" mass="49"/>
+    <Type name="C" class="C" element="C" mass="52"/>
+    <!-- Virtual particles -->
+    <Type name="A1" class="A1" element="A1" mass="0"/>
+    <Type name="C1" class="C1" element="C1" mass="0"/>
+    <Type name="C2" class="C2" element="C2" mass="0"/>
+  </AtomTypes>
+</ForceField>
